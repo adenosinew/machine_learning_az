@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
-dataset = pd.read_csv('Position_Salaries.csv')
+dataset = pd.read_csv('/media/kexing/DATA/CodePractice/machine_learning_az/Part 2 - Regression/Section 8 - Decision Tree Regression/Position_Salaries.csv')
 X = dataset.iloc[:, 1:2].values
 y = dataset.iloc[:, 2].values
 
